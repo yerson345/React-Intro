@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yerson345/React-Intro.git/static/css/main.1060491a.css",
+    "main.js": "/yerson345/React-Intro.git/static/js/main.3e80ab77.js",
+    "index.html": "/yerson345/React-Intro.git/index.html",
+    "main.1060491a.css.map": "/yerson345/React-Intro.git/static/css/main.1060491a.css.map",
+    "main.3e80ab77.js.map": "/yerson345/React-Intro.git/static/js/main.3e80ab77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1060491a.css",
+    "static/js/main.3e80ab77.js"
+  ]
+}
