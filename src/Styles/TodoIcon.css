@@ -1,0 +1,36 @@
+.Icon-container {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+/* Estilo para el icono de check */
+.Icon-container-check {
+    position: absolute;
+    left: 12px;
+}
+
+/* Estilo para el icono de delete */
+.Icon-container-delete {
+    position: absolute;
+    top: -24px;
+    right: 0;
+}
+
+/* Cambia el color en el hover para el contenedor del icono de check */
+.Icon-container-check:hover .Icon-svg {
+    stroke: green; /* Cambia el color del contenedor del icono al hacer hover */
+    fill: green;
+}
+
+/* Cambia el color en el hover para el contenedor del icono de delete */
+.Icon-container-delete:hover .Icon-svg {
+    stroke: red; /* Cambia el color del contenedor del icono al hacer hover */
+    fill: red;
+}
